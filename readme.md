@@ -38,7 +38,7 @@ Secrets: AWS Secrets Manager (email + API token)
 
 ### Architecture diagram
 
-![Architecture diagram](./architecture.svg)
+![Architecture diagram](./arch diagram for GitHub-Jira integration with AWS Lambda.png)
 
 ## Repository layout
 
