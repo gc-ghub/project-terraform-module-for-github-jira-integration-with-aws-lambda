@@ -1,0 +1,72 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# Terraform sensitive files
+terraform.tfvars
+*.auto.tfvars
+*.tfvars
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.venv/
+ENV/
+.env
+*.egg-info/
+
+# Virtualenv and pip
+pip-wheel-metadata/
+
+# AWS / serverless
+.aws-sam/
+.serverless/
+*.pem
+
+# Docker
+docker-compose.override.yml
+docker-compose.*.yml
+.Dockerfile.swp
+
+# IDEs / editors
+.vscode/
+.idea/
+*.iml
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build artifacts
+dist/
+build/
+
+# Sensitive files
+credentials
+secrets.yml
+
+# Others
+*.bak
+*.swp
+*.tmp
+
+# OneDrive/temp
+~$*
